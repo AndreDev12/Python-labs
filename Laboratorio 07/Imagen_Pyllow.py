@@ -8,5 +8,5 @@
 from PIL import  Image
 
 # img = Image.open('Users/TERMINAL/Desktop/PYTHON-3.9.2/devices.jpg')
-img = Image.open('c:/Users/USER/Desktop/Laboratorio 07/devices.jpg')
+img = Image.open('c:/Users/USER/Desktop/Python-labs/Laboratorio 07/devices.jpg')
 img.show()

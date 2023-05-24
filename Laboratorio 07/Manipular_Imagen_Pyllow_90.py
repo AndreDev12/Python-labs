@@ -9,6 +9,6 @@
 
 from PIL import Image
 
-img = Image.open('c:/Users/USER/Desktop/Laboratorio 07/devices.jpg')
+img = Image.open('c:/Users/USER/Desktop/Python-labs/Laboratorio 07/devices.jpg')
 imgrotate = img.rotate(90)
 imgrotate.show()

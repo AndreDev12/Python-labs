@@ -3,7 +3,7 @@ import cv2
 def nothing(x):
     pass
 
-img = cv2.imread('developers.jpg')
+img = cv2.imread('c:/Users/USER/Desktop/Python-labs/Laboratorio 05/developers.jpg')
 img = cv2.resize(img, (600, 300))
 
 cv2.namedWindow('Canny')
@@ -30,4 +30,5 @@ while True:
     if k == 27:
         break
 
+cv2.show('Image', img)
 cv2.destroyAllWindows

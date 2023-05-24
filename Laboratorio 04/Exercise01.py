@@ -2,8 +2,8 @@
 import cv2;
 import numpy as np
 
-img = cv2.imread('/Desktop/Sistemas inteligentes/Laboratorio 04/ProDjango.jpg', 0) # Leemos la imagen
-h,w,canal=img.shape # Ancho y altura de la forma de la imagen
+img = cv2.imread('c:/Users/USER/Desktop/Python-labs/Laboratorio 04/ProDjango.jpg', 0) # Leemos la imagen
+h,w=img.shape # Ancho y altura de la forma de la imagen
 
 #Interpolación
 img_mitad=cv2.resize(img, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_CUBIC)

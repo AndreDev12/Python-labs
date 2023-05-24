@@ -10,7 +10,7 @@
 
 from PIL import Image, ImageDraw, ImageFont
 
-img = Image.open('c:/Users/USER/Desktop/Laboratorio 07/devices.jpg')
+img = Image.open('c:/Users/USER/Desktop/Python-labs/Laboratorio 07/devices.jpg')
 draw = ImageDraw.Draw(img)
 font = ImageFont.truetype('arial.ttf', 50)
 draw.text((20, 20), 'Programando en Python',
